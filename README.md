@@ -60,19 +60,4 @@ This project analyzes the Titanic dataset to understand how gender, passenger cl
 
     Interpret results accordingly.
 
-## Usage
-
-```python
-import pandas as pd
-
-# Load data
-df = pd.read_csv('titanic_data.csv')
-
-# Encode categorical variables
-df['Sex_encoded'] = df['Sex'].map({'male': 0, 'female': 1})
-df['Embarked_encoded'] = df['Embarked'].map({'C': 0, 'Q': 1, 'S': 2})
-
-# Calculate survival rates
-print(df.groupby('Sex_encoded')['Survived'].mean())
-print(df.groupby('Pclass')['Survived'].mean())
 
