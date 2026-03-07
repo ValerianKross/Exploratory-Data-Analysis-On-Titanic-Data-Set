@@ -47,7 +47,7 @@ This project analyzes the Titanic dataset to understand how gender, passenger cl
 - matplotlib
 
 
-  ⚠️  IMPORTANT: This dataset exhibits an extreme gender-based survival 
+   IMPORTANT: This dataset exhibits an extreme gender-based survival 
     split (100% female survival, 0% male survival) that does not 
     reflect actual historical Titanic data. In reality, approximately 
     74% of women and 19% of men survived. This pattern suggests the 
